@@ -73,10 +73,9 @@ public class Main {
     public static void task4_2() {
         System.out.println("\nTask 4_2");
         int friday = 4;
-        int k = friday;
-        while(k<=31){
-            System.out.println("Сегодня пятница, "+ k + "-е число. Необходимо подготовить отчет.");
-            k+=7;
+        while(friday<=31){
+            System.out.println("Сегодня пятница, "+ friday + "-е число. Необходимо подготовить отчет.");
+            friday+=7;
         }
     }
 
